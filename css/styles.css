@@ -3,18 +3,3 @@ body{
     font-family: 'Roboto', sans-serif;
     color: #212121;
 }
-
-.portfolio-img {
-    width: 370px;
-    height: 294px;
-}
-
-.workflow-photo {
-    width: 370px;
-    height: 294px;
-}
-
-.member-photo {
-    width: 270px;
-    height: 260px;
-}
