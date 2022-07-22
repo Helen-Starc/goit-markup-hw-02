@@ -39,9 +39,11 @@ body{
     font-family: inherit;
 }
 
-.nav-list .current {
+.nav-list .link.current {
     color: var(--accent-color);
 }
+
+.section {}
 
 /* ------------header------------ */
 
@@ -56,7 +58,6 @@ body{
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color);
-    text-decoration: none;
 }
 
 .header-logo {
@@ -158,7 +159,7 @@ body{
 
 .workflow {}
 
-.workflow-title, .team-title{
+.section-title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -241,7 +242,7 @@ body{
 
 .portfolio-filter {}
 
-.portfolio-filter-item {}
+.filter-item {}
 
 .filter-btn {
     font-weight: 500;
