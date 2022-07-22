@@ -8,8 +8,8 @@
     --main-background-color: #FFFFFF;
 }
 
-body{
-    font-family: 'Roboto', 'Raleway', sans-serif;
+body {
+    font-family: 'Roboto', sans-serif;
     color: var(--dark-text-color);
     background-color: var(--main-background-color);
 }
@@ -63,18 +63,21 @@ body{
 .header-logo {
     color: #000000;
 }
+
 .nav-list {}
 
 .nav-item {}
 
-.nav-link, .contacts-link {
+.nav-link,
+.contacts-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    
+
 }
-.nav-link{
+
+.nav-link {
     color: var(--dark-text-color);
 }
 
@@ -151,7 +154,7 @@ body{
 .benefits-item-text {
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;  
+    letter-spacing: 0.03em;
     color: var(--description-text-color);
 }
 
@@ -159,7 +162,7 @@ body{
 
 .workflow {}
 
-.section-title{
+.section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -190,7 +193,7 @@ body{
 .team-member-name {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.19;   
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -226,7 +229,7 @@ body{
 
 .footer-contacts-link {
     font-size: 14px;
-    line-height: 1.71;   
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
