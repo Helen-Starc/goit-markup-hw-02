@@ -127,8 +127,7 @@ body{
 
 .hero-btn:hover,
 .hero-btn:focus {
-    background-color: var(--light-background-color);
-    color: var(--dark-text-color);
+    background-color: #188CE8;
 }
 
 /* ------------benefits------------ */
