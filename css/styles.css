@@ -4,11 +4,14 @@
     --light-text-color: #FFFFFF;
     --description-text-color: #757575;
     --dark-background-color: #2F303A;
+    --light-background-color: #F5F4FA;
+    --main-background-color: #FFFFFF;
 }
 
 body{
     font-family: 'Roboto', 'Raleway', sans-serif;
     color: var(--dark-text-color);
+    background-color: var(--main-background-color);
 }
 
 .link {
@@ -30,6 +33,14 @@ body{
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
+}
+
+.btn {
+    font-family: inherit;
+}
+
+.nav-list .current {
+    color: var(--accent-color);
 }
 
 /* ------------header------------ */
@@ -114,6 +125,12 @@ body{
     cursor: pointer;
 }
 
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--light-background-color);
+    color: var(--dark-text-color);
+}
+
 /* ------------benefits------------ */
 .benefits {}
 
@@ -159,10 +176,14 @@ body{
 /* ------------team------------ */
 
 .team {
-    background-color: #F5F4FA;
+    background-color: var(--light-background-color);
 }
 
 .team-list {}
+
+.team-item {
+    background-color: var(--main-background-color);
+}
 
 .team-member-photo {}
 
@@ -210,6 +231,11 @@ body{
     color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-contacts-link:hover,
+.footer-contacts-link:focus {
+    color: var(--accent-color);
+}
+
 /* ------------portfolio------------ */
 
 .portfolio {}
@@ -224,6 +250,7 @@ body{
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+    background-color: var(--light-background-color);
     border: none;
     cursor: pointer;
 }
